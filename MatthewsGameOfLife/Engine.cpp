@@ -2,7 +2,7 @@
 
 void Engine::createGame()
 {
-    World* initWorld = new World(8, 8);
+    World* initWorld = new World(200, 50);
     Personality* initPersonality = new Personality();
     initPersonality->chooseTraits();
     gameLoop(initWorld, initPersonality);
